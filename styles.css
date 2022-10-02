@@ -12,11 +12,27 @@
 #heading {
   padding-left: 0px;
   padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0;
   text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 400%;
 }
 
-h1 {
- font-family: 'Bebas Neue', cursive;
+#heading.tp {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 250%;
+  padding: 1vw;
+}
+
+#heading.red {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 250%;
+  padding: 1vw;
+  color: red;
+
 }
 
 div {
@@ -65,11 +81,14 @@ li {
   font-size: 12px;
   padding: 10px;
 }
+ 
+#cakeingredients ul, #frostingingredients ul, #directions ol {
+  display: none;
+}
 
 footer {
   background-color: black;
 }
-
 /*    -------   RESPONSIVE DESIGN    ---------       */
 
 @media screen and (orientation: portrait) {
