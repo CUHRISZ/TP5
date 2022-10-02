@@ -22,7 +22,7 @@ window.onload = function() {
     this .classList.toggle("show");
   }  
   
-  
+  document.querySelector("body").innerHTML += "<h4>Terrific red velvet cupcakes in 40 minutes!</h4>";
   
 }
 
