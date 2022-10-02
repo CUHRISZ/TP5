@@ -9,5 +9,21 @@ window.onload = function() {
     this .classList.toggle("red");
   }
   // java uses css queryselector to find thing and adds an onclick event which toggles the .red class
+  
+  
+  // had to format like this due to HTML
+  document.querySelector("#cakeingredients").onclick = function() {
+    this .classList.toggle("show");
+  }
+  document.querySelector("#frostingingredients").onclick = function() {
+    this .classList.toggle("show");
+  }
+  document.querySelector("#directions").onclick = function() {
+    this .classList.toggle("show");
+  }  
+  
+  
+  
 }
 
+// classlist.toggle -> toggles class

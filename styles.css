@@ -86,6 +86,17 @@ li {
   display: none;
 }
 
+/* had to format like this due to the way I structured my HTML */
+
+#cakeingredients.show ul{
+  display: block;
+}
+#frostingingredients.show ul{
+  display: block;
+}
+#directions.show ol{
+  display: block;
+}
 footer {
   background-color: black;
 }
